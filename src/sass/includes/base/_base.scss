@@ -26,19 +26,3 @@ h1, h2, h4, h5, h6{
     font-size: 1.3em !important;
   }
 }
-
-.loader {
-  position: relative;
-  &:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100vw;
-    height: 100vh;
-    background: url("../ereader-images/splash_gif.gif") no-repeat 50%, #fff;
-    background-size: 100px 100px;
-  }
-}

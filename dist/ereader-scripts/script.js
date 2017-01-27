@@ -3,7 +3,6 @@ var app = (function () {
 
     /** Constants */
     var CLASS_NAME_SEARCH_RESULT = 'search-result',
-        CLASS_NAME_LOADER = 'loader',
         DATA_ATTR_CHAPTER_ID = 'data-chapter-id',
         DATA_ATTR_START_PAGE = 'data-start-page',
         DATA_ATTR_SECTION_ID = 'data-section-id',
@@ -80,15 +79,6 @@ var app = (function () {
      * */
     var sendConfig = function (config) {
         console.dir(JSON.parse(config));
-    };
-
-    /**
-     * Remove loader
-     * */
-    var removeLoader = function () {
-        var loader = document.querySelector('.' + CLASS_NAME_LOADER);
-
-        loader.classList.remove(CLASS_NAME_LOADER);
     };
 
     /**
@@ -250,10 +240,9 @@ console.log('startSelectionTag', startSelectionTag);
          * */
         init: function() {
             buildColumns();
-            removeLoader();
             createConfig();
             buildHighlight();
-            // console.log(app.getSearchResultPosition('fifa', 1));
+            console.log(app.getSearchResultPosition('LEVEl', 1));
         }
     };
 })();
