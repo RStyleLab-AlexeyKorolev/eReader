@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="pub-id">urn:uuid:9e41b330-a7d4-11e6-9598-0800200c9a66</dc:identifier>
+		<dc:source id="src-id">urn:isbn:9780997749502</dc:source>
+		<meta refines="#src-id" property="identifier-type">isbn</meta>
+		<dc:title id="title">The Complete Athlete: Women’s Soccer</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		<meta refines="#title" property="display-seq">1</meta>
+		
+		<dc:language>en-US</dc:language>
+		
+		<!-- dates -->
+		<dc:date>2016-12-08T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">2016-12-08T00:00:00Z</meta>
+		
+		<dc:publisher>The Complete Athlete, LLC</dc:publisher>
+		
+		<!-- author -->
+		<dc:creator id="author1">Walid Khoury</dc:creator>
+		<meta refines="#author1" property="file-as">Khoury, Walid</meta>
+		<meta refines="#author1" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#author1" property="display-seq">1</meta>
+		<dc:creator id="author2">Ziad Khoury</dc:creator>
+		<meta refines="#author2" property="file-as">Khoury, Ziad</meta>
+		<meta refines="#author2" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#author2" property="display-seq">2</meta>
+		<dc:creator id="author3">Dave Coggin</dc:creator>
+		<meta refines="#author3" property="file-as">Coggin, Dave</meta>
+		<meta refines="#author3" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#author3" property="display-seq">3</meta>
+		<dc:creator id="author4">Don Yaeger</dc:creator>
+		<meta refines="#author4" property="file-as">Yaeger, Don</meta>
+		<meta refines="#author4" property="role" scheme="marc:relators">aut</meta>
+		<meta refines="#author4" property="display-seq">4</meta>
+		
+		<!-- contributor information -->
+		<dc:contributor id="tiffany-brooks">Tiffany Brooks</dc:contributor>
+		<meta refines="#tiffany-brooks" property="file-as">Brooks, Tiffany</meta>
+		<meta refines="#tiffany-brooks" property="role" scheme="marc:relators">edc</meta>
+		<meta refines="#tiffany-brooks" property="display-seq">1</meta>
+		
+		<!-- mrlasers -->
+		<dc:contributor id="mrlasers">MrLasers.com</dc:contributor>
+		<meta refines="#mrlasers" property="file-as">MrLasers</meta>
+		<meta refines="#mrlasers" property="role" scheme="marc:relators">bkp</meta>
+		<dc:contributor id="tpew">Timothy Pew</dc:contributor>
+		<meta refines="#tpew" property="file-as">Pew, Timothy</meta>
+		<meta refines="#tpew" property="role" scheme="marc:relators">bkd</meta>
+		
+		
+		<meta name="cover" content="cover-image"/>
+	</metadata>
+	<manifest>
+		<!-- styles -->
+		<item id="style" media-type="text/css" href="Styles/styles.css"/>
+		<!-- fonts -->
+		<item id="font-opensans" media-type="application/font-woff" href="Fonts/OpenSans-Regular.woff"/>
+		<item id="font-opensans-italic" media-type="application/font-woff" href="Fonts/OpenSans-Italic.woff"/>
+		<item id="font-opensans-bold" media-type="application/font-woff" href="Fonts/OpenSans-Bold.woff"/>
+		<item id="font-opensans-bolditalic" media-type="application/font-woff" href="Fonts/OpenSans-BoldItalic.woff"/>
+		<!-- images -->
+		<item id="cover-image" media-type="image/jpeg" href="Images/cover.jpg"/>
+		<item id="img-15" media-type="image/jpeg" href="Images/15.jpg"/>
+		<item id="img-18" media-type="image/jpeg" href="Images/18.jpg"/>
+		<item id="img-20" media-type="image/jpeg" href="Images/20.jpg"/>
+		<item id="img-33" media-type="image/jpeg" href="Images/33.jpg"/>
+		<item id="img-34" media-type="image/jpeg" href="Images/34.jpg"/>
+		<item id="img-39" media-type="image/jpeg" href="Images/39.jpg"/>
+		<item id="img-41" media-type="image/jpeg" href="Images/41.jpg"/>
+		<item id="img-45" media-type="image/jpeg" href="Images/45.jpg"/>
+		<item id="img-46" media-type="image/jpeg" href="Images/46.jpg"/>
+		<item id="img-48" media-type="image/jpeg" href="Images/48.jpg"/>
+		<item id="img-53" media-type="image/jpeg" href="Images/53.jpg"/>
+		<item id="img-56" media-type="image/jpeg" href="Images/56.jpg"/>
+		<item id="img-58" media-type="image/jpeg" href="Images/58.jpg"/>
+		<item id="img-61" media-type="image/jpeg" href="Images/61.jpg"/>
+		<item id="img-63" media-type="image/jpeg" href="Images/63.jpg"/>
+		<item id="img-64" media-type="image/jpeg" href="Images/64.jpg"/>
+		<item id="img-67" media-type="image/jpeg" href="Images/67.jpg"/>
+		<item id="img-68" media-type="image/jpeg" href="Images/68.jpg"/>
+		<item id="img-79" media-type="image/jpeg" href="Images/79.jpg"/>
+		<item id="img-82" media-type="image/jpeg" href="Images/82.jpg"/>
+		<!-- <item id="img-83" media-type="image/jpeg" href="Images/83.jpg"/> -->
+		<item id="img-84" media-type="image/jpeg" href="Images/84.jpg"/>
+		<item id="img-95" media-type="image/jpeg" href="Images/95.jpg"/>
+		<item id="img-96" media-type="image/jpeg" href="Images/96.jpg"/>
+		<item id="img-104" media-type="image/jpeg" href="Images/104.jpg"/>
+		<item id="img-107" media-type="image/jpeg" href="Images/107.jpg"/>
+		<item id="img-108" media-type="image/jpeg" href="Images/108.jpg"/>
+		<item id="img-115" media-type="image/jpeg" href="Images/115.jpg"/>
+		<item id="img-118" media-type="image/jpeg" href="Images/118.jpg"/>
+		<item id="img-120" media-type="image/jpeg" href="Images/120.jpg"/>
+		<item id="img-122" media-type="image/jpeg" href="Images/122.jpg"/>
+		<item id="img-135" media-type="image/jpeg" href="Images/135.jpg"/>
+		<item id="img-136" media-type="image/jpeg" href="Images/136.jpg"/>
+		<item id="img-138" media-type="image/jpeg" href="Images/138.jpg"/>
+		<item id="img-144" media-type="image/jpeg" href="Images/144.jpg"/>
+		<item id="img-148" media-type="image/jpeg" href="Images/148.jpg"/>
+		<item id="img-152" media-type="image/jpeg" href="Images/152.jpg"/>
+		<item id="img-160" media-type="image/jpeg" href="Images/160.jpg"/>
+		<item id="img-163" media-type="image/jpeg" href="Images/163.jpg"/>
+		<item id="img-169" media-type="image/jpeg" href="Images/169.jpg"/>
+		<item id="img-170" media-type="image/jpeg" href="Images/170.jpg"/>
+		<item id="img-172" media-type="image/jpeg" href="Images/172.jpg"/>
+		<item id="img-175" media-type="image/jpeg" href="Images/175.jpg"/>
+		<item id="img-176" media-type="image/jpeg" href="Images/176.jpg"/>
+		<item id="img-184" media-type="image/jpeg" href="Images/184.jpg"/>
+		<item id="img-189" media-type="image/jpeg" href="Images/189.jpg"/>
+		<item id="img-192" media-type="image/jpeg" href="Images/192.jpg"/>
+		<item id="img-193" media-type="image/jpeg" href="Images/193.jpg"/>
+		<item id="img-194" media-type="image/jpeg" href="Images/194.jpg"/>
+		<item id="img-201" media-type="image/jpeg" href="Images/201.jpg"/>
+		<item id="img-206" media-type="image/jpeg" href="Images/206.jpg"/>
+		<item id="img-213" media-type="image/jpeg" href="Images/213.jpg"/>
+		<item id="img-221" media-type="image/jpeg" href="Images/221.jpg"/>
+		<item id="img-223" media-type="image/jpeg" href="Images/223.jpg"/>
+		<item id="img-225" media-type="image/jpeg" href="Images/225.jpg"/>
+		<item id="img-228" media-type="image/jpeg" href="Images/228.jpg"/>
+		<item id="img-230" media-type="image/jpeg" href="Images/230.jpg"/>
+		<item id="img-233" media-type="image/jpeg" href="Images/233.jpg"/>
+		<item id="img-234" media-type="image/jpeg" href="Images/234.jpg"/>
+		<item id="img-244" media-type="image/jpeg" href="Images/244.jpg"/>
+		<!-- <item id="img-245" media-type="image/jpeg" href="Images/245.jpg"/> -->
+		<item id="img-246" media-type="image/jpeg" href="Images/246.jpg"/>
+		<item id="img-253" media-type="image/jpeg" href="Images/253.jpg"/>
+		<item id="img-254" media-type="image/jpeg" href="Images/254.jpg"/>
+		<item id="img-262" media-type="image/jpeg" href="Images/262.jpg"/>
+		<item id="img-269" media-type="image/jpeg" href="Images/269.jpg"/>
+		<item id="img-270" media-type="image/jpeg" href="Images/270.jpg"/>
+		<item id="img-275" media-type="image/jpeg" href="Images/275.jpg"/>
+		<item id="img-281" media-type="image/jpeg" href="Images/281.jpg"/>
+		<item id="img-signatures" media-type="image/jpeg" href="Images/signatures.jpg"/>
+		
+
+	
+		<!-- navigation -->
+		<item id="nav" media-type="application/xhtml+xml" href="Navigation/nav.xhtml" properties="nav"/>
+		<item id="ncx" media-type="application/x-dtbncx+xml" href="Navigation/toc.ncx"/>
+	
+		<!-- content documents -->
+		<item id="cover" media-type="application/xhtml+xml" href="Content/cover.xhtml"/>
+		<item id="np1" media-type="application/xhtml+xml" href="Content/title-page.xhtml"/>
+		<item id="np2" media-type="application/xhtml+xml" href="Content/copyright.xhtml"/>
+		<item id="np3" media-type="application/xhtml+xml" href="Content/dedication.xhtml"/>
+		<item id="np4" media-type="application/xhtml+xml" href="Content/toc.xhtml"/>
+		<item id="np5" media-type="application/xhtml+xml" href="Content/introduction.xhtml"/>
+		<item id="np6" media-type="application/xhtml+xml" href="Content/tca-matrix.xhtml"/>
+		<item id="np7" media-type="application/xhtml+xml" href="Content/dear-parents.xhtml"/>
+		<item id="np8" media-type="application/xhtml+xml" href="Content/dear-athlete.xhtml"/>
+		<item id="np9" media-type="application/xhtml+xml" href="Content/dear-coaches.xhtml"/>
+		<item id="np10" media-type="application/xhtml+xml" href="Content/ch1.xhtml"/>
+		<item id="np11" media-type="application/xhtml+xml" href="Content/ch11.xhtml"/>
+		<item id="np12" media-type="application/xhtml+xml" href="Content/ch11-toc.xhtml"/>
+		<item id="np13" media-type="application/xhtml+xml" href="Content/ch11-intro.xhtml"/>
+		<item id="np14" media-type="application/xhtml+xml" href="Content/ch11-respect.xhtml"/>
+		<item id="np15" media-type="application/xhtml+xml" href="Content/ch11-sportsmanship.xhtml"/>
+		<item id="np16" media-type="application/xhtml+xml" href="Content/ch11-teamwork.xhtml"/>
+		<item id="np17" media-type="application/xhtml+xml" href="Content/ch11-professionalism.xhtml"/>
+		<item id="np18" media-type="application/xhtml+xml" href="Content/ch11-leadership.xhtml"/>
+		<item id="np19" media-type="application/xhtml+xml" href="Content/ch12.xhtml"/>
+		<item id="np20" media-type="application/xhtml+xml" href="Content/ch12-toc.xhtml"/>
+		<item id="np21" media-type="application/xhtml+xml" href="Content/ch12-practice.xhtml"/>
+		<item id="np22" media-type="application/xhtml+xml" href="Content/ch12-nutrition.xhtml"/>
+		<item id="np23" media-type="application/xhtml+xml" href="Content/ch12-hydration.xhtml"/>
+		<item id="np24" media-type="application/xhtml+xml" href="Content/ch12-recovery.xhtml"/>
+		<item id="np25" media-type="application/xhtml+xml" href="Content/ch12-mentality.xhtml"/>
+		<item id="np26" media-type="application/xhtml+xml" href="Content/ch13.xhtml"/>
+		<item id="np27" media-type="application/xhtml+xml" href="Content/ch13-toc.xhtml"/>
+		<item id="np28" media-type="application/xhtml+xml" href="Content/ch13-lower-body.xhtml"/>
+		<item id="np29" media-type="application/xhtml+xml" href="Content/ch13-upper-body.xhtml"/>
+		<item id="np30" media-type="application/xhtml+xml" href="Content/ch13-flexibility.xhtml"/>
+		<item id="np31" media-type="application/xhtml+xml" href="Content/ch13-core-strength.xhtml"/>
+		<item id="np32" media-type="application/xhtml+xml" href="Content/ch13-speed.xhtml"/>
+		<item id="np33" media-type="application/xhtml+xml" href="Content/ch1-test.xhtml"/>
+		<item id="np34" media-type="application/xhtml+xml" href="Content/ch14.xhtml"/>
+		<item id="np35" media-type="application/xhtml+xml" href="Content/ch14-toc.xhtml"/>
+		<item id="np36" media-type="application/xhtml+xml" href="Content/ch14-ball-skills.xhtml"/>
+		<item id="np37" media-type="application/xhtml+xml" href="Content/ch14-passing.xhtml"/>
+		<item id="np38" media-type="application/xhtml+xml" href="Content/ch14-push-pass.xhtml"/>
+		<item id="np39" media-type="application/xhtml+xml" href="Content/ch14-instep-pass.xhtml"/>
+		<item id="np40" media-type="application/xhtml+xml" href="Content/ch14-outsidefoot.xhtml"/>
+		<item id="np41" media-type="application/xhtml+xml" href="Content/ch14-ball-control.xhtml"/>
+		<item id="np42" media-type="application/xhtml+xml" href="Content/ch14-shooting.xhtml"/>
+		<item id="np43" media-type="application/xhtml+xml" href="Content/ch14-heading.xhtml"/>
+		<item id="np44" media-type="application/xhtml+xml" href="Content/ch15.xhtml"/>
+		<item id="np45" media-type="application/xhtml+xml" href="Content/ch15-toc.xhtml"/>
+		<item id="np46" media-type="application/xhtml+xml" href="Content/ch15-family.xhtml"/>
+		<item id="np47" media-type="application/xhtml+xml" href="Content/ch15-academics.xhtml"/>
+		<item id="np48" media-type="application/xhtml+xml" href="Content/ch15-social-life.xhtml"/>
+		<item id="np49" media-type="application/xhtml+xml" href="Content/ch15-role-model.xhtml"/>
+		<item id="np50" media-type="application/xhtml+xml" href="Content/ch15-living-your-sport.xhtml"/>
+		<item id="np51" media-type="application/xhtml+xml" href="Content/ch1-hamm.xhtml"/>
+		<item id="np52" media-type="application/xhtml+xml" href="Content/ch2.xhtml"/>
+		<item id="np53" media-type="application/xhtml+xml" href="Content/ch21.xhtml"/>
+		<item id="np54" media-type="application/xhtml+xml" href="Content/ch21-toc.xhtml"/>
+		<item id="np55" media-type="application/xhtml+xml" href="Content/ch21-respect.xhtml"/>
+		<item id="np56" media-type="application/xhtml+xml" href="Content/ch21-sportsmanship.xhtml"/>
+		<item id="np57" media-type="application/xhtml+xml" href="Content/ch21-teamwork.xhtml"/>
+		<item id="np58" media-type="application/xhtml+xml" href="Content/ch21-professionalism.xhtml"/>
+		<item id="np59" media-type="application/xhtml+xml" href="Content/ch21-leadership.xhtml"/>
+		<item id="np60" media-type="application/xhtml+xml" href="Content/ch22.xhtml"/>
+		<item id="np61" media-type="application/xhtml+xml" href="Content/ch22-toc.xhtml"/>
+		<item id="np62" media-type="application/xhtml+xml" href="Content/ch22-practice.xhtml"/>
+		<item id="np63" media-type="application/xhtml+xml" href="Content/ch22-nutrition.xhtml"/>
+		<item id="np64" media-type="application/xhtml+xml" href="Content/ch22-hydration.xhtml"/>
+		<item id="np65" media-type="application/xhtml+xml" href="Content/ch22-recovery.xhtml"/>
+		<item id="np66" media-type="application/xhtml+xml" href="Content/ch22-mentality.xhtml"/>
+		<item id="np67" media-type="application/xhtml+xml" href="Content/ch23.xhtml"/>
+		<item id="np68" media-type="application/xhtml+xml" href="Content/ch23-toc.xhtml"/>
+		<item id="np69" media-type="application/xhtml+xml" href="Content/ch23-lower-body.xhtml"/>
+		<item id="np70" media-type="application/xhtml+xml" href="Content/ch23-upper-body.xhtml"/>
+		<item id="np71" media-type="application/xhtml+xml" href="Content/ch23-flexibility.xhtml"/>
+		<item id="np72" media-type="application/xhtml+xml" href="Content/ch23-core-strength.xhtml"/>
+		<item id="np73" media-type="application/xhtml+xml" href="Content/ch23-speed.xhtml"/>
+		<item id="np74" media-type="application/xhtml+xml" href="Content/ch2-test.xhtml"/>
+		<item id="np75" media-type="application/xhtml+xml" href="Content/ch24.xhtml"/>
+		<item id="np76" media-type="application/xhtml+xml" href="Content/ch24-toc.xhtml"/>
+		<item id="np77" media-type="application/xhtml+xml" href="Content/ch24-ball-skills.xhtml"/>
+		<item id="np78" media-type="application/xhtml+xml" href="Content/ch24-passing.xhtml"/>
+		<item id="np79" media-type="application/xhtml+xml" href="Content/ch24-striking.xhtml"/>
+		<item id="np80" media-type="application/xhtml+xml" href="Content/ch24-heading.xhtml"/>
+		<item id="np81" media-type="application/xhtml+xml" href="Content/ch25.xhtml"/>
+		<item id="np82" media-type="application/xhtml+xml" href="Content/ch25-toc.xhtml"/>
+		<item id="np83" media-type="application/xhtml+xml" href="Content/ch25-family.xhtml"/>
+		<item id="np84" media-type="application/xhtml+xml" href="Content/ch25-academics.xhtml"/>
+		<item id="np85" media-type="application/xhtml+xml" href="Content/ch25-social-life.xhtml"/>
+		<item id="np86" media-type="application/xhtml+xml" href="Content/ch25-role-model.xhtml"/>
+		<item id="np87" media-type="application/xhtml+xml" href="Content/ch25-living-your-sport.xhtml"/>
+		<item id="np88" media-type="application/xhtml+xml" href="Content/ch25-hamm.xhtml"/>
+		<item id="np89" media-type="application/xhtml+xml" href="Content/ch3.xhtml"/>
+		<item id="np90" media-type="application/xhtml+xml" href="Content/ch31.xhtml"/>
+		<item id="np91" media-type="application/xhtml+xml" href="Content/ch31-toc.xhtml"/>
+		<item id="np92" media-type="application/xhtml+xml" href="Content/ch31-respect.xhtml"/>
+		<item id="np93" media-type="application/xhtml+xml" href="Content/ch31-sportsmanship.xhtml"/>
+		<item id="np94" media-type="application/xhtml+xml" href="Content/ch31-teamwork.xhtml"/>
+		<item id="np95" media-type="application/xhtml+xml" href="Content/ch31-professionalism.xhtml"/>
+		<item id="np96" media-type="application/xhtml+xml" href="Content/ch31-leadership.xhtml"/>
+		<item id="np97" media-type="application/xhtml+xml" href="Content/ch32.xhtml"/>
+		<item id="np98" media-type="application/xhtml+xml" href="Content/ch32-toc.xhtml"/>
+		<item id="np99" media-type="application/xhtml+xml" href="Content/ch32-practice.xhtml"/>
+		<item id="np100" media-type="application/xhtml+xml" href="Content/ch32-nutrition.xhtml"/>
+		<item id="np101" media-type="application/xhtml+xml" href="Content/ch32-hydration.xhtml"/>
+		<item id="np102" media-type="application/xhtml+xml" href="Content/ch32-recovery.xhtml"/>
+		<item id="np103" media-type="application/xhtml+xml" href="Content/ch32-mentality.xhtml"/>
+		<item id="np104" media-type="application/xhtml+xml" href="Content/ch33.xhtml"/>
+		<item id="np105" media-type="application/xhtml+xml" href="Content/ch33-toc.xhtml"/>
+		<item id="np106" media-type="application/xhtml+xml" href="Content/ch33-lower-body.xhtml"/>
+		<item id="np107" media-type="application/xhtml+xml" href="Content/ch33-upper-body.xhtml"/>
+		<item id="np108" media-type="application/xhtml+xml" href="Content/ch33-flexibility.xhtml"/>
+		<item id="np109" media-type="application/xhtml+xml" href="Content/ch33-core-strength.xhtml"/>
+		<item id="np110" media-type="application/xhtml+xml" href="Content/ch33-speed.xhtml"/>
+		<item id="np111" media-type="application/xhtml+xml" href="Content/ch33-test.xhtml"/>
+		<item id="np112" media-type="application/xhtml+xml" href="Content/ch34.xhtml"/>
+		<item id="np113" media-type="application/xhtml+xml" href="Content/ch34-toc.xhtml"/>
+		<item id="np114" media-type="application/xhtml+xml" href="Content/ch34-ball-skills.xhtml"/>
+		<item id="np115" media-type="application/xhtml+xml" href="Content/ch34-passing.xhtml"/>
+		<item id="np116" media-type="application/xhtml+xml" href="Content/ch34-ball-control.xhtml"/>
+		<item id="np117" media-type="application/xhtml+xml" href="Content/ch34-striking.xhtml"/>
+		<item id="np118" media-type="application/xhtml+xml" href="Content/ch34-heading.xhtml"/>
+		<item id="np119" media-type="application/xhtml+xml" href="Content/ch35.xhtml"/>
+		<item id="np120" media-type="application/xhtml+xml" href="Content/ch35-toc.xhtml"/>
+		<item id="np121" media-type="application/xhtml+xml" href="Content/ch35-family.xhtml"/>
+		<item id="np122" media-type="application/xhtml+xml" href="Content/ch35-academics.xhtml"/>
+		<item id="np123" media-type="application/xhtml+xml" href="Content/ch35-social-life.xhtml"/>
+		<item id="np124" media-type="application/xhtml+xml" href="Content/ch35-living-your-sport.xhtml"/>
+		<item id="np125" media-type="application/xhtml+xml" href="Content/ch3-hamm.xhtml"/>
+		<item id="np126" media-type="application/xhtml+xml" href="Content/ch4.xhtml"/>
+		<item id="np127" media-type="application/xhtml+xml" href="Content/ch41.xhtml"/>
+		<item id="np128" media-type="application/xhtml+xml" href="Content/ch41-toc.xhtml"/>
+		<item id="np129" media-type="application/xhtml+xml" href="Content/ch41-respect.xhtml"/>
+		<item id="np130" media-type="application/xhtml+xml" href="Content/ch41-sportsmanship.xhtml"/>
+		<item id="np131" media-type="application/xhtml+xml" href="Content/ch41-teamwork.xhtml"/>
+		<item id="np132" media-type="application/xhtml+xml" href="Content/ch41-professionalism.xhtml"/>
+		<item id="np133" media-type="application/xhtml+xml" href="Content/ch41-leadership.xhtml"/>
+		<item id="np134" media-type="application/xhtml+xml" href="Content/ch42.xhtml"/>
+		<item id="np135" media-type="application/xhtml+xml" href="Content/ch42-toc.xhtml"/>
+		<item id="np136" media-type="application/xhtml+xml" href="Content/ch42-practice.xhtml"/>
+		<item id="np137" media-type="application/xhtml+xml" href="Content/ch42-nutrition.xhtml"/>
+		<item id="np138" media-type="application/xhtml+xml" href="Content/ch42-hydration.xhtml"/>
+		<item id="np139" media-type="application/xhtml+xml" href="Content/ch42-recovery.xhtml"/>
+		<item id="np140" media-type="application/xhtml+xml" href="Content/ch42-mentality.xhtml"/>
+		<item id="np141" media-type="application/xhtml+xml" href="Content/ch43.xhtml"/>
+		<item id="np142" media-type="application/xhtml+xml" href="Content/ch43-toc.xhtml"/>
+		<item id="np143" media-type="application/xhtml+xml" href="Content/ch43-lower-body.xhtml"/>
+		<item id="np144" media-type="application/xhtml+xml" href="Content/ch43-upper-body.xhtml"/>
+		<item id="np145" media-type="application/xhtml+xml" href="Content/ch43-flexibility.xhtml"/>
+		<item id="np146" media-type="application/xhtml+xml" href="Content/ch43-core-strength.xhtml"/>
+		<item id="np147" media-type="application/xhtml+xml" href="Content/ch43-speed.xhtml"/>
+		<item id="np148" media-type="application/xhtml+xml" href="Content/ch4-test.xhtml"/>
+		<item id="np149" media-type="application/xhtml+xml" href="Content/ch44.xhtml"/>
+		<item id="np150" media-type="application/xhtml+xml" href="Content/ch44-toc.xhtml"/>
+		<item id="np151" media-type="application/xhtml+xml" href="Content/ch44-ball-skills.xhtml"/>
+		<item id="np152" media-type="application/xhtml+xml" href="Content/ch44-passing.xhtml"/>
+		<item id="np153" media-type="application/xhtml+xml" href="Content/ch44-ball-control.xhtml"/>
+		<item id="np154" media-type="application/xhtml+xml" href="Content/ch44-striking.xhtml"/>
+		<item id="np155" media-type="application/xhtml+xml" href="Content/ch44-heading.xhtml"/>
+		<item id="np156" media-type="application/xhtml+xml" href="Content/ch45.xhtml"/>
+		<item id="np157" media-type="application/xhtml+xml" href="Content/ch45-toc.xhtml"/>
+		<item id="np158" media-type="application/xhtml+xml" href="Content/ch45-family.xhtml"/>
+		<item id="np159" media-type="application/xhtml+xml" href="Content/ch45-academics.xhtml"/>
+		<item id="np160" media-type="application/xhtml+xml" href="Content/ch45-social-life.xhtml"/>
+		<item id="np161" media-type="application/xhtml+xml" href="Content/ch45-living-your-sport.xhtml"/>
+		<item id="np162" media-type="application/xhtml+xml" href="Content/ch4-hamm.xhtml"/>
+		<item id="np163" media-type="application/xhtml+xml" href="Content/ch5.xhtml"/>
+		<item id="np164" media-type="application/xhtml+xml" href="Content/ch51.xhtml"/>
+		<item id="np165" media-type="application/xhtml+xml" href="Content/ch51-toc.xhtml"/>
+		<item id="np166" media-type="application/xhtml+xml" href="Content/ch51-respect.xhtml"/>
+		<item id="np167" media-type="application/xhtml+xml" href="Content/ch51-sportsmanship.xhtml"/>
+		<item id="np168" media-type="application/xhtml+xml" href="Content/ch51-teamwork.xhtml"/>
+		<item id="np169" media-type="application/xhtml+xml" href="Content/ch51-professionalism.xhtml"/>
+		<item id="np170" media-type="application/xhtml+xml" href="Content/ch51-leadership.xhtml"/>
+		<item id="np171" media-type="application/xhtml+xml" href="Content/ch52.xhtml"/>
+		<item id="np172" media-type="application/xhtml+xml" href="Content/ch52-toc.xhtml"/>
+		<item id="np173" media-type="application/xhtml+xml" href="Content/ch52-practice.xhtml"/>
+		<item id="np174" media-type="application/xhtml+xml" href="Content/ch52-nutrition.xhtml"/>
+		<item id="np175" media-type="application/xhtml+xml" href="Content/ch52-hydration.xhtml"/>
+		<item id="np176" media-type="application/xhtml+xml" href="Content/ch52-recovery.xhtml"/>
+		<item id="np177" media-type="application/xhtml+xml" href="Content/ch52-mentality.xhtml"/>
+		<item id="np178" media-type="application/xhtml+xml" href="Content/ch53.xhtml"/>
+		<item id="np179" media-type="application/xhtml+xml" href="Content/ch53-toc.xhtml"/>
+		<item id="np180" media-type="application/xhtml+xml" href="Content/ch53-lower-body.xhtml"/>
+		<item id="np181" media-type="application/xhtml+xml" href="Content/ch53-upper-body.xhtml"/>
+		<item id="np182" media-type="application/xhtml+xml" href="Content/ch53-core-strength.xhtml"/>
+		<item id="np183" media-type="application/xhtml+xml" href="Content/ch5-test.xhtml"/>
+		<item id="np184" media-type="application/xhtml+xml" href="Content/ch54.xhtml"/>
+		<item id="np185" media-type="application/xhtml+xml" href="Content/ch54-toc.xhtml"/>
+		<item id="np186" media-type="application/xhtml+xml" href="Content/ch54-ball-skills.xhtml"/>
+		<item id="np187" media-type="application/xhtml+xml" href="Content/ch54-passing.xhtml"/>
+		<item id="np188" media-type="application/xhtml+xml" href="Content/ch54-ball-control.xhtml"/>
+		<item id="np189" media-type="application/xhtml+xml" href="Content/ch54-striking.xhtml"/>
+		<item id="np190" media-type="application/xhtml+xml" href="Content/ch54-heading.xhtml"/>
+		<item id="np191" media-type="application/xhtml+xml" href="Content/ch55.xhtml"/>
+		<item id="np192" media-type="application/xhtml+xml" href="Content/ch55-toc.xhtml"/>
+		<item id="np193" media-type="application/xhtml+xml" href="Content/ch55-family.xhtml"/>
+		<item id="np194" media-type="application/xhtml+xml" href="Content/ch55-academics.xhtml"/>
+		<item id="np195" media-type="application/xhtml+xml" href="Content/ch55-social-life.xhtml"/>
+		<item id="np196" media-type="application/xhtml+xml" href="Content/ch55-role-model.xhtml"/>
+		<item id="np197" media-type="application/xhtml+xml" href="Content/ch5-hamm.xhtml"/>
+		<item id="np198" media-type="application/xhtml+xml" href="Content/appendix1.xhtml"/>
+		<item id="np199" media-type="application/xhtml+xml" href="Content/appendix2.xhtml"/>
+		<item id="np200" media-type="application/xhtml+xml" href="Content/meet-the-team.xhtml"/>
+		<item id="np201" media-type="application/xhtml+xml" href="Content/acknowledgments.xhtml"/>
+
+
+
+		
+	</manifest>
+	
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no"/>
+		<itemref idref="np1"/>
+		<itemref idref="np2"/>
+		<itemref idref="np3"/>
+		<itemref idref="np4"/>
+		<itemref idref="np5"/>
+		<itemref idref="np6"/>
+		<itemref idref="np7"/>
+		<itemref idref="np8"/>
+		<itemref idref="np9"/>
+		<itemref idref="np10"/>
+		<itemref idref="np11"/>
+		<itemref idref="np12"/>
+		<itemref idref="np13"/>
+		<itemref idref="np14"/>
+		<itemref idref="np15"/>
+		<itemref idref="np16"/>
+		<itemref idref="np17"/>
+		<itemref idref="np18"/>
+		<itemref idref="np19"/>
+		<itemref idref="np20"/>
+		<itemref idref="np21"/>
+		<itemref idref="np22"/>
+		<itemref idref="np23"/>
+		<itemref idref="np24"/>
+		<itemref idref="np25"/>
+		<itemref idref="np26"/>
+		<itemref idref="np27"/>
+		<itemref idref="np28"/>
+		<itemref idref="np29"/>
+		<itemref idref="np30"/>
+		<itemref idref="np31"/>
+		<itemref idref="np32"/>
+		<itemref idref="np33"/>
+		<itemref idref="np34"/>
+		<itemref idref="np35"/>
+		<itemref idref="np36"/>
+		<itemref idref="np37"/>
+		<itemref idref="np38"/>
+		<itemref idref="np39"/>
+		<itemref idref="np40"/>
+		<itemref idref="np41"/>
+		<itemref idref="np42"/>
+		<itemref idref="np43"/>
+		<itemref idref="np44"/>
+		<itemref idref="np45"/>
+		<itemref idref="np46"/>
+		<itemref idref="np47"/>
+		<itemref idref="np48"/>
+		<itemref idref="np49"/>
+		<itemref idref="np50"/>
+		<itemref idref="np51"/>
+		<itemref idref="np52"/>
+		<itemref idref="np53"/>
+		<itemref idref="np54"/>
+		<itemref idref="np55"/>
+		<itemref idref="np56"/>
+		<itemref idref="np57"/>
+		<itemref idref="np58"/>
+		<itemref idref="np59"/>
+		<itemref idref="np60"/>
+		<itemref idref="np61"/>
+		<itemref idref="np62"/>
+		<itemref idref="np63"/>
+		<itemref idref="np64"/>
+		<itemref idref="np65"/>
+		<itemref idref="np66"/>
+		<itemref idref="np67"/>
+		<itemref idref="np68"/>
+		<itemref idref="np69"/>
+		<itemref idref="np70"/>
+		<itemref idref="np71"/>
+		<itemref idref="np72"/>
+		<itemref idref="np73"/>
+		<itemref idref="np74"/>
+		<itemref idref="np75"/>
+		<itemref idref="np76"/>
+		<itemref idref="np77"/>
+		<itemref idref="np78"/>
+		<itemref idref="np79"/>
+		<itemref idref="np80"/>
+		<itemref idref="np81"/>
+		<itemref idref="np82"/>
+		<itemref idref="np83"/>
+		<itemref idref="np84"/>
+		<itemref idref="np85"/>
+		<itemref idref="np86"/>
+		<itemref idref="np87"/>
+		<itemref idref="np88"/>
+		<itemref idref="np89"/>
+		<itemref idref="np90"/>
+		<itemref idref="np91"/>
+		<itemref idref="np92"/>
+		<itemref idref="np93"/>
+		<itemref idref="np94"/>
+		<itemref idref="np95"/>
+		<itemref idref="np96"/>
+		<itemref idref="np97"/>
+		<itemref idref="np98"/>
+		<itemref idref="np99"/>
+		<itemref idref="np100"/>
+		<itemref idref="np101"/>
+		<itemref idref="np102"/>
+		<itemref idref="np103"/>
+		<itemref idref="np104"/>
+		<itemref idref="np105"/>
+		<itemref idref="np106"/>
+		<itemref idref="np107"/>
+		<itemref idref="np108"/>
+		<itemref idref="np109"/>
+		<itemref idref="np110"/>
+		<itemref idref="np111"/>
+		<itemref idref="np112"/>
+		<itemref idref="np113"/>
+		<itemref idref="np114"/>
+		<itemref idref="np115"/>
+		<itemref idref="np116"/>
+		<itemref idref="np117"/>
+		<itemref idref="np118"/>
+		<itemref idref="np119"/>
+		<itemref idref="np120"/>
+		<itemref idref="np121"/>
+		<itemref idref="np122"/>
+		<itemref idref="np123"/>
+		<itemref idref="np124"/>
+		<itemref idref="np125"/>
+		<itemref idref="np126"/>
+		<itemref idref="np127"/>
+		<itemref idref="np128"/>
+		<itemref idref="np129"/>
+		<itemref idref="np130"/>
+		<itemref idref="np131"/>
+		<itemref idref="np132"/>
+		<itemref idref="np133"/>
+		<itemref idref="np134"/>
+		<itemref idref="np135"/>
+		<itemref idref="np136"/>
+		<itemref idref="np137"/>
+		<itemref idref="np138"/>
+		<itemref idref="np139"/>
+		<itemref idref="np140"/>
+		<itemref idref="np141"/>
+		<itemref idref="np142"/>
+		<itemref idref="np143"/>
+		<itemref idref="np144"/>
+		<itemref idref="np145"/>
+		<itemref idref="np146"/>
+		<itemref idref="np147"/>
+		<itemref idref="np148"/>
+		<itemref idref="np149"/>
+		<itemref idref="np150"/>
+		<itemref idref="np151"/>
+		<itemref idref="np152"/>
+		<itemref idref="np153"/>
+		<itemref idref="np154"/>
+		<itemref idref="np155"/>
+		<itemref idref="np156"/>
+		<itemref idref="np157"/>
+		<itemref idref="np158"/>
+		<itemref idref="np159"/>
+		<itemref idref="np160"/>
+		<itemref idref="np161"/>
+		<itemref idref="np162"/>
+		<itemref idref="np163"/>
+		<itemref idref="np164"/>
+		<itemref idref="np165"/>
+		<itemref idref="np166"/>
+		<itemref idref="np167"/>
+		<itemref idref="np168"/>
+		<itemref idref="np169"/>
+		<itemref idref="np170"/>
+		<itemref idref="np171"/>
+		<itemref idref="np172"/>
+		<itemref idref="np173"/>
+		<itemref idref="np174"/>
+		<itemref idref="np175"/>
+		<itemref idref="np176"/>
+		<itemref idref="np177"/>
+		<itemref idref="np178"/>
+		<itemref idref="np179"/>
+		<itemref idref="np180"/>
+		<itemref idref="np181"/>
+		<itemref idref="np182"/>
+		<itemref idref="np183"/>
+		<itemref idref="np184"/>
+		<itemref idref="np185"/>
+		<itemref idref="np186"/>
+		<itemref idref="np187"/>
+		<itemref idref="np188"/>
+		<itemref idref="np189"/>
+		<itemref idref="np190"/>
+		<itemref idref="np191"/>
+		<itemref idref="np192"/>
+		<itemref idref="np193"/>
+		<itemref idref="np194"/>
+		<itemref idref="np195"/>
+		<itemref idref="np196"/>
+		<itemref idref="np197"/>
+		<itemref idref="np198"/>
+		<itemref idref="np199"/>
+		<itemref idref="np200"/>
+		<itemref idref="np201"/>
+
+
+	</spine>
+	
+	<!-- guide is for epub2 backward compatibility -->
+	<guide>
+		<reference type="cover" title="Cover" href="Content/cover.xhtml"/>
+		<reference type="toc" title="Table of Contents" href="Content/cover.xhtml"/>
+		<reference type="text" title="Beginning" href="Content/cover.xhtml"/>
+	</guide>
+</package>

@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+
+  &:before,
+  &:after{
+    box-sizing: border-box;
+  }
+}
+
+html,
+body{
+  font-size: 16px;
+  margin: 0;
+}
+
+img{
+  display: block !important;
+  width: 100vw !important;
+  height: auto !important;
+  max-height: 100vh !important;
+  object-fit: contain;
+}
+
+h1, h2, h4, h5, h6{
+  @media (max-width: 320px) {
+    font-size: 1.3em !important;
+  }
+}
+
+.loader {
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background: url("../ereader-images/splash_gif.gif") no-repeat 50%, #fff;
+    background-size: 100px 100px;
+  }
+}

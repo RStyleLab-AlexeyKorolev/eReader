@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "startPage": 7,
+  "totalPages": 10,
+  "chapterInnerText": "",
+  "sections": [
+    {
+      "id": 2,
+      "offsetTop": 54,
+      "pageNumber": 11,
+      "pageIndex": 4
+    }
+  ],
+  "tags": [
+    {
+      "tagIndex": 1,
+      "pageNumber": 1
+    },
+    {
+      "tagIndex": 2,
+      "pageNumber": 1
+    },
+    {
+      "tagIndex": 3,
+      "pageNumber": 2
+    }
+  ]
+}

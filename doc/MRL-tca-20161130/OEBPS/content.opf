@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc='http://purl.org/dc/elements/1.1/'>
+		<dc:identifier id='pub-id'>urn:uuid:9e41b330-a7d4-11e6-9598-0800200c9a66</dc:identifier>
+		<dc:source id='src-id'>urn:isbn:9780997749502</dc:source>
+		<meta refines='#src-id' property='identifier-type'>isbn</meta>
+		<dc:title id='title'>The Complete Athlete: Women’s Soccer</dc:title>
+		<meta refines='#title' property='title-type'>main</meta>
+		<meta refines='#title' property='display-seq'>1</meta>
+		
+		<dc:language>en-US</dc:language>
+		
+		<!-- dates -->
+		<dc:date>2016-11-20T00:00:00Z</dc:date>
+		<meta property='dcterms:modified'>2016-11-30T00:00:00Z</meta>
+		
+		<dc:publisher>The Complete Athlete, LLC</dc:publisher>
+		
+		<!-- author -->
+		<dc:creator id='author1'>Walid Khoury</dc:creator>
+		<meta refines='#author1' property='file-as'>Khoury, Walid</meta>
+		<meta refines='#author1' property='role' scheme='marc:relators'>aut</meta>
+		<meta refines='#author1' property='display-seq'>1</meta>
+		<dc:creator id='author2'>Ziad Khoury</dc:creator>
+		<meta refines='#author2' property='file-as'>Khoury, Ziad</meta>
+		<meta refines='#author2' property='role' scheme='marc:relators'>aut</meta>
+		<meta refines='#author2' property='display-seq'>2</meta>
+		<dc:creator id='author3'>Dave Coggin</dc:creator>
+		<meta refines='#author3' property='file-as'>Coggin, Dave</meta>
+		<meta refines='#author3' property='role' scheme='marc:relators'>aut</meta>
+		<meta refines='#author3' property='display-seq'>3</meta>
+		<dc:creator id='author4'>Don Yaeger</dc:creator>
+		<meta refines='#author4' property='file-as'>Yaeger, Don</meta>
+		<meta refines='#author4' property='role' scheme='marc:relators'>aut</meta>
+		<meta refines='#author4' property='display-seq'>4</meta>
+		
+		<!-- contributor information -->
+		<dc:contributor id='tiffany-brooks'>Tiffany Brooks</dc:contributor>
+		<meta refines='#tiffany-brooks' property='file-as'>Brooks, Tiffany</meta>
+		<meta refines='#tiffany-brooks' property='role' scheme='marc:relators'>edc</meta>
+		<meta refines='#tiffany-brooks' property='display-seq'>1</meta>
+		
+		<!-- mrlasers -->
+		<dc:contributor id='mrlasers'>MrLasers.com</dc:contributor>
+		<meta refines='#mrlasers' property='file-as'>MrLasers</meta>
+		<meta refines='#mrlasers' property='role' scheme='marc:relators'>bkp</meta>
+		<dc:contributor id='tpew'>Timothy Pew</dc:contributor>
+		<meta refines='#tpew' property='file-as'>Pew, Timothy</meta>
+		<meta refines='#tpew' property='role' scheme='marc:relators'>bkd</meta>
+		
+		
+		<meta name='cover' content='cover-image'/>
+	</metadata>
+	<manifest>
+		<!-- styles -->
+		<item id='style' media-type='text/css' href='Styles/styles.css'/>
+		<!-- fonts -->
+		<item id='font-opensans' media-type='application/font-woff' href='Fonts/OpenSans-Regular.woff'/>
+		<item id='font-opensans-italic' media-type='application/font-woff' href='Fonts/OpenSans-Italic.woff'/>
+		<item id='font-opensans-bold' media-type='application/font-woff' href='Fonts/OpenSans-Bold.woff'/>
+		<item id='font-opensans-bolditalic' media-type='application/font-woff' href='Fonts/OpenSans-BoldItalic.woff'/>
+		<!-- images -->
+		<item id='cover-image' media-type='image/jpeg' href='Images/cover.jpg'/>
+		
+		<item id='img-p244' media-type='image/jpeg' href='Images/p244.jpg'/>
+		<item id='img-p246' media-type='image/jpeg' href='Images/p246.jpg'/>
+		<item id='img-p253' media-type='image/jpeg' href='Images/p253.jpg'/>
+		<item id='img-p254' media-type='image/jpeg' href='Images/p254.jpg'/>
+		<item id='img-p262' media-type='image/jpeg' href='Images/p262.jpg'/>
+		<item id='img-p269' media-type='image/jpeg' href='Images/p269.jpg'/>
+		<item id='img-p270' media-type='image/jpeg' href='Images/p270.jpg'/>
+		<item id='img-p275' media-type='image/jpeg' href='Images/p275.jpg'/>
+	
+		<!-- navigation -->
+		<item id='nav' media-type='application/xhtml+xml' href='Navigation/nav.xhtml' properties='nav'/>
+		<item id='ncx' media-type='application/x-dtbncx+xml' href='Navigation/toc.ncx'/>
+	
+		<!-- content documents -->
+		<item id='cover-ht' media-type='application/xhtml+xml' href='Content/cover.xhtml'/>
+		<item id='blank' media-type='application/xhtml+xml' href='Content/blank.xhtml'/>
+		
+		<item id='ch5' media-type='application/xhtml+xml' href='Content/Chapter5.xhtml'/>
+		<item id='ch5-1' media-type='application/xhtml+xml' href='Content/Chapter5-1.xhtml'/>
+			<item id='ch5-1toc' media-type='application/xhtml+xml' href='Content/Chapter5-1-toc.xhtml'/>
+			<item id='ch5-1a' media-type='application/xhtml+xml' href='Content/Chapter5-1a.xhtml'/>
+			<item id='ch5-1b' media-type='application/xhtml+xml' href='Content/Chapter5-1b.xhtml'/>
+			<item id='ch5-1c' media-type='application/xhtml+xml' href='Content/Chapter5-1c.xhtml'/>
+			<item id='ch5-1d' media-type='application/xhtml+xml' href='Content/Chapter5-1d.xhtml'/>
+			<item id='ch5-1e' media-type='application/xhtml+xml' href='Content/Chapter5-1e.xhtml'/>
+			
+		<item id='ch5-2' media-type='application/xhtml+xml' href='Content/Chapter5-2.xhtml'/>
+			<item id='ch5-2toc' media-type='application/xhtml+xml' href='Content/Chapter5-2-toc.xhtml'/>
+			<item id='ch5-2a' media-type='application/xhtml+xml' href='Content/Chapter5-2a.xhtml'/>
+			<item id='ch5-2b' media-type='application/xhtml+xml' href='Content/Chapter5-2b.xhtml'/>
+			<item id='ch5-2c' media-type='application/xhtml+xml' href='Content/Chapter5-2c.xhtml'/>
+			<item id='ch5-2d' media-type='application/xhtml+xml' href='Content/Chapter5-2d.xhtml'/>
+			<item id='ch5-2e' media-type='application/xhtml+xml' href='Content/Chapter5-2e.xhtml'/>
+			
+		<item id='ch5-3' media-type='application/xhtml+xml' href='Content/Chapter5-3.xhtml'/>
+			<item id='ch5-3toc' media-type='application/xhtml+xml' href='Content/Chapter5-3-toc.xhtml'/>
+			<item id='ch5-3a' media-type='application/xhtml+xml' href='Content/Chapter5-3a.xhtml'/>
+			<item id='ch5-3b' media-type='application/xhtml+xml' href='Content/Chapter5-3b.xhtml'/>
+			<item id='ch5-3c' media-type='application/xhtml+xml' href='Content/Chapter5-3c.xhtml'/>
+			<item id='ch5-3-test' media-type='application/xhtml+xml' href='Content/Chapter5-3-test.xhtml'/>
+			
+		<item id='ch5-4' media-type='application/xhtml+xml' href='Content/Chapter5-4.xhtml'/>
+			<item id='ch5-4toc' media-type='application/xhtml+xml' href='Content/Chapter5-4-toc.xhtml'/>
+			<item id='ch5-4a' media-type='application/xhtml+xml' href='Content/Chapter5-4a.xhtml'/>
+			<item id='ch5-4b' media-type='application/xhtml+xml' href='Content/Chapter5-4b.xhtml'/>
+			<item id='ch5-4c' media-type='application/xhtml+xml' href='Content/Chapter5-4c.xhtml'/>
+			<item id='ch5-4d' media-type='application/xhtml+xml' href='Content/Chapter5-4d.xhtml'/>
+			<item id='ch5-4e' media-type='application/xhtml+xml' href='Content/Chapter5-4e.xhtml'/>
+			
+		<item id='ch5-5' media-type='application/xhtml+xml' href='Content/Chapter5-5.xhtml'/>
+			<item id='ch5-5toc' media-type='application/xhtml+xml' href='Content/Chapter5-5-toc.xhtml'/>
+			<item id='ch5-5a' media-type='application/xhtml+xml' href='Content/Chapter5-5a.xhtml'/>
+			<item id='ch5-5b' media-type='application/xhtml+xml' href='Content/Chapter5-5b.xhtml'/>
+			<item id='ch5-5c' media-type='application/xhtml+xml' href='Content/Chapter5-5c.xhtml'/>
+			<item id='ch5-5d' media-type='application/xhtml+xml' href='Content/Chapter5-5d.xhtml'/>
+			<item id='ch5-5-hamm' media-type='application/xhtml+xml' href='Content/Chapter5-5-hamm.xhtml'/>
+	</manifest>
+	
+	<spine toc='ncx'>
+		<itemref idref='cover-ht' linear='no'/>
+		
+		<itemref idref="blank"/>
+		<itemref idref="ch5"/>
+		<itemref idref="ch5-1"/>
+			<itemref idref="ch5-1toc"/>
+			<itemref idref="ch5-1a"/>
+			<itemref idref="ch5-1b"/>
+			<itemref idref="ch5-1c"/>
+			<itemref idref="ch5-1d"/>
+			<itemref idref="ch5-1e"/>
+		<itemref idref="ch5-2"/>
+			<itemref idref="ch5-2toc"/>
+			<itemref idref="ch5-2a"/>
+			<itemref idref="ch5-2b"/>
+			<itemref idref="ch5-2c"/>
+			<itemref idref="ch5-2d"/>
+			<itemref idref="ch5-2e"/>
+		<itemref idref="ch5-3"/>
+			<itemref idref="ch5-3toc"/>
+			<itemref idref="ch5-3a"/>
+			<itemref idref="ch5-3b"/>
+			<itemref idref="ch5-3c"/>
+		<itemref idref="ch5-3-test"/>
+		<itemref idref="ch5-4"/>
+			<itemref idref="ch5-4toc"/>
+			<itemref idref="ch5-4a"/>
+			<itemref idref="ch5-4b"/>
+			<itemref idref="ch5-4c"/>
+			<itemref idref="ch5-4d"/>
+			<itemref idref="ch5-4e"/>
+		<itemref idref="ch5-5"/>
+			<itemref idref="ch5-5toc"/>
+			<itemref idref="ch5-5a"/>
+			<itemref idref="ch5-5b"/>
+			<itemref idref="ch5-5c"/>
+			<itemref idref="ch5-5d"/>
+		<itemref idref="ch5-5-hamm"/>
+	</spine>
+	
+	<!-- guide is for epub2 backward compatibility -->
+	<guide>
+		<reference type='cover' title='Cover' href='Content/cover.xhtml'/>
+		<reference type='toc' title='Table of Contents' href='Content/cover.xhtml'/>
+		<reference type='text' title='Beginning' href='Content/cover.xhtml'/>
+	</guide>
+</package>

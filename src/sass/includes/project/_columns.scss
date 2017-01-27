@@ -1,0 +1,16 @@
+body{
+  & > *:not(.highlight-popup){
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    column-width: 100vw;
+    column-count: auto;
+    column-fill: auto;
+    column-gap: 0;
+
+    & > * {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+    }
+  }
+}
